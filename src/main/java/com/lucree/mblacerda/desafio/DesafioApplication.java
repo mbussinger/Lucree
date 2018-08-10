@@ -14,6 +14,10 @@ import org.springframework.web.client.RestTemplate;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Esta classe será instanciada e executado o método main() quando for executado o comando mvnw spring-boot:run
+ * Neste teste o serviço é consumido sem erro, pois não precisa de verificação do usuário (token).
+ */
 @SpringBootApplication
 public class DesafioApplication {
 

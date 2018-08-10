@@ -14,6 +14,10 @@ import javax.ws.rs.client.Entity;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+/**
+ * Esta classe será instanciada e executado o método main() quando retirado o comentário da anotação @SpringBootApplication
+ * Neste teste o serviço não é consumido, retornando status 400 do servidor onde se encontra o serviço.
+ */
 //@SpringBootApplication
 public class DesafioApplication_2 {
 
